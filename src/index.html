@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>fitnes</title>
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -55,7 +56,7 @@
         </div>
     </section>
 
-    <section class="action">
+    <div class="action">
         <div class="title">НАШИ ПРЕЙМУЩЕСТВА</div>
         <div class="container">
             <div class="action__icons">
@@ -67,10 +68,10 @@
                     </div>
                 </div>
                 <div class="action__icon">
-                    <img src="icons/premium/heart.png" alt="cup">
+                    <img src="icons/premium/heart.png" alt="cup" class="action__icon_animated">
                     <div class="action__title">Делимся опытом</div>
                     <div class="action__subtitle action__text"> 
-                        Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</v> 
+                        Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким! 
                     </div>
                 </div>
                 <div class="action__icon">
@@ -82,7 +83,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
 
         <section class="consultation">
             <div class="container">
@@ -102,7 +103,7 @@
                 </form>
             </div>
         </section>
-        <section class="carousel">
+        <div class="carousel">
             <div class="container">
                 <div class="carousel__inner">
                     <div>
@@ -116,7 +117,7 @@
                     </div>
                   </div>
             </div>
-        </section>
+        </div>
         <section class="catalog">
             <div class="container">
                 <h2 class="title">Католог пульсометрoв</h2>
@@ -170,8 +171,9 @@
                                 <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
                                 <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
                                 <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                                <a href="#" class="catalog-item_back">назад</a>
+                             <a href="#" class="catalog-item_back">назад</a>
                             </ul>
+                           
                         </div>
                          <hr>
  
@@ -415,10 +417,10 @@
             </div>
         </section>
 
-        <section class="hreview">
+        <section class="hreview ">
             <h2 class="title">отзывы клиентов</h2>
             <div class="container">
-                <div class="hreview__info">
+                <div class="hreview__info animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="icons/otzivi/photo_1.png" alt="photo" class="hreview__photo">
                     <div class="hreview__item">
                         Ирина Иванченко<br> 
@@ -432,7 +434,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="hreview__info">
+                <div class="hreview__info animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="icons/otzivi/photo_2.png" alt="photo" class="hreview__photo">
                     <div class="hreview__item">
                         Иван Сёмочкин<br> 
@@ -446,7 +448,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="hreview__info">
+                <div class="hreview__info animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="icons/otzivi/photo_3.png" alt="photo" class="hreview__photo">
                     <div class="hreview__item">
                         Юлия Дашкина<br> 
@@ -510,11 +512,17 @@
 
         </div>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <a href="#up"  class="pageup">
+            <img src="img/chevron-circle-up-solid.svg" alt="up" class="pageup">
+        </a>
+
+
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/script.js"></script>
 </body>
 </html>
