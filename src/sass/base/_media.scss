@@ -62,6 +62,10 @@
             font-size: 9px;
         }
     }
+
+    .catalog__tab{
+        width: auto;
+    }
     .header {
         align-items: center;
         flex-direction: column;
@@ -86,6 +90,28 @@
     }
     .catalog__content{
         justify-content: center
+    }
+    .hreview__info{
+        flex-direction: column;
+    }
+    .hreview__info{
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    .footer__info{
+        width: 310px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .modal{
+        width: 100%;
+        &__close{
+            top: 10px;
+            right: 10px
+        }
     }
 }
 
