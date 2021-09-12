@@ -1,4 +1,20 @@
+@import 'libs/_bootstrap-reboot.min';
+@import 'libs/_fonts';
+@import 'libs/_slick';
+@import 'libs/_animate.min.scss';
+
 @import 'base/variables';
+@import 'base/_media.scss';
+@import 'base/_animation.scss';
+* {
+font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 @import 'blocks/_promo.scss';
 @import 'blocks/_header.scss';
 @import 'blocks/_buttons.scss';
@@ -12,13 +28,3 @@
 @import 'blocks/_footer.scss';
 @import 'blocks/_modal.scss';
 @import 'blocks/_pageup.scss';
-@import 'base/_media.scss';
-@import 'base/_animation.scss';
-* {
-font-family: 'Museo Sans Cyrl', sans-serif;
-}
-
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-}

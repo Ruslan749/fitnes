@@ -33,14 +33,14 @@
         }
     }
     .carousel__inner{
-        width: auto;
+        width: 700px;
         &_img{
-            width: inherit;
+            width: 500px;
         }
     }
     .catalog{
         &__tab{
-            font-size: 11px;
+            font-size: 9px;
         }
     }
 
@@ -62,9 +62,16 @@
             font-size: 9px;
         }
     }
-
+    .carousel__inner{
+        width: 0;
+        width: 320px;
+        &_img{
+            width: 300px;
+        }
+    }
     .catalog__tab{
-        width: auto;
+        width: 86px;
+        font-size: 9px;
     }
     .header {
         align-items: center;
